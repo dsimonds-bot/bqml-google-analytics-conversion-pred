@@ -8,4 +8,4 @@ SELECT
 FROM `bigquery-public-data.google_analytics_sample.ga_sessions_*`
 WHERE _TABLE_SUFFIX BETWEEN '20160801' AND '20170631'
 AND trafficSource.campaign NOT IN ('(not set)')
-LIMIT 5000
+LIMIT 10000
